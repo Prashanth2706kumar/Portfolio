@@ -1,0 +1,18 @@
+
+<div class="bg-wrapper">
+  <div class="bg-image"></div>
+</div>
+
+  <nav class="top-nav">
+   <a href="#" (click)="goToHome($event)">
+  <i class="material-icons">home</i>
+  Home
+</a>
+
+
+  <a href="#" (click)="goToAbout($event)"><i class="material-icons">person</i> About</a>
+  <a href="#" (click)="goToProject($event)"><i class="material-icons">work</i> Projects Done</a>
+  <a href="#" (click)="goToContact($event)"><i class="material-icons">mail</i> Contact</a>
+
+</nav>
+<router-outlet></router-outlet>
